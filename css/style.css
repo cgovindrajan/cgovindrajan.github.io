@@ -1,0 +1,72 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #000000;
+}
+section.title {
+  display: block;
+  height: 30vh;
+}
+.title .intro {
+	position: relative;
+  	top: 50%;
+    padding: 1em;
+    text-align: center;
+    margin: 0;
+}
+.title .intro h1 {
+  font-family: 'Open Sans', sans-serif;
+	color: #636363;
+	font-size: 2.5em;
+	font-weight: 600;
+	margin: 0;
+}
+.title .intro h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: #C8C8C8;
+	font-size: 1.53em;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 35px;
+}
+
+.title .intro #icons {
+	list-style: none outside none;
+	margin: 5px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+.title .intro #icons li {
+	display: inline;
+  display: inline-block;
+  line-height: 5.885em;
+  position: relative;
+  width: 6.25em;
+}
+
+#icons li a:hover {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.175);
+  color: white;
+  font-size: 2.1em;
+}
+
+#icons li a {
+  background-color: #000000;
+  color: #fff;
+  display: inline-block;
+  border-radius: 100%;
+  border: solid 1px white;
+  font-size: 1.8em;
+  height: 2.5em;
+  line-height: 2.5em;
+  position: relative;
+  text-align: center;
+  top: 0;
+  width: 2.5em;
+}
+
+
