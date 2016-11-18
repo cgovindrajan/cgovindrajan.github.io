@@ -304,8 +304,8 @@ hr {
 .intro {
 	width:100%;
 	position:stretch;
-	
 	background: url(../img/bg1.jpg) no-repeat top center;
+	background-size: 100%;
 }
 
 #intro.intro {
