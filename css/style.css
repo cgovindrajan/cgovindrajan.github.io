@@ -307,7 +307,11 @@ hr {
 
 .intro {
 	width:100%;
-	position:relative;
+	/*position:relative;*/
+	position: fixed; 
+        left: 0px; 
+        top: 0px; 
+        z-index: -1;
 	
 	background: url(../img/bg1.jpg) no-repeat top center;
 }
